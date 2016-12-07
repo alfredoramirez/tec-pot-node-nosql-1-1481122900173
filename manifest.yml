@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: tec-pot-node-nosql-1
+  host: tec-pot-node-nosql-1
+  disk_quota: 1024M
+  services:
+  - tec-pot-node-nosql-1-cloudantNoSQLDB
